@@ -1,0 +1,30 @@
+html {
+    background: linear-gradient(to bottom, #000033, #000055) no-repeat;
+    min-height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 10vh 20%;
+    color: #fff;
+    text-shadow: 0px 0px 5px #9999FF, 5px 5px 0px #000000;
+}
+
+#svs {
+    color: bisque;
+    font-family: monospace;
+}
+
+iframe {
+    width: 800px;
+    height: 600px;
+}
+
+.btn {
+    padding: 30px 50px;
+    text-decoration: none;
+    font-size: 40px;
+    background: linear-gradient(to bottom, #000088, #000077 10px) no-repeat, linear-gradient(to bottom, #000077, #000099) no-repeat;
+    color: #fff;
+    display: inline-block;
+}
