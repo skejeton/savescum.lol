@@ -1,24 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>SAVE SCUM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAVESCUM</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-        <h1 id="svs">
-            SAVESCUM
-        </h1>
-    </header>
-    <hr>
-
-    <article>
-        <a class="btn" href="https://skejeton.itch.io/savescum">Play</a>
+    <style>
+      .img-container {
+        box-sizing: border-box;
+        padding: 1vh;
+      }
+      img {
+        width: 100%;
+        max-width: 900px;
+      }
+      body {
+        background: linear-gradient(to top, #000077, #000044);
+        color: #FFFFFF;
+        display: flex;
+        font-family: sans-serif;
+        padding: 0 10%;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+      }
+      @media screen and (max-width: 1000px) {
+        body {
+          height: auto;
+          overflow: auto;
+          flex-direction: column-reverse;
+        }
+      }
+      .copy {
+        color: #AAAAFF;
+      }
+      h2 {
+        color: #000077;
+        background: #FFFF55;
+        padding: 2px;
+      }
+      a {
+        color: #FFFF00 !important;
+      }
+      .left {
+        overflow: auto;
+        height: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .right {
+        overflow: hidden;
+        height: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="left">
+      <div>
+        <h2> Rewards for cheaters </h2>
+        <p> 
+          SAVESCUM is a puzzle platformer involving saving and reloading state.
+          For most people it may remind of playing games on emulators, and resetting the state back, once something happens you don't like.
+        </p>
+        <h2> ...Whats going on? </h2>
+        <p>
+          You are a robot named PAL, summoned in an unknown dimension. Suddenly after you teleport, the dimension destabilizes. The only way to get back is to get back to the portal! There's no quick way, the dimesion is corrupted and you need to go right. You as a player, can save a point in time, and return back to this point in time - infinite retries! Only if! As dimension got destabilized, some things just refuse to save, so returning back in time is not always the same time! But could this be used to your advantage? 
+        </p>
+        <h2> ...Step forth on Earth. </h2>
+        <p>
+          You make your way through. And the portal is down there. You have no choice, as you jump to the portal in a destabilized dimension. The portal doesn't teleport you back, but teleports you to Earth. There, you need to find how to stabilize your dimension, and finally return home. But maybe, just maybe, you want to stay.
+        </p>
+        <h2> ...Try now. </h2>
+        <p>
+          The Advent<sup>tm</sup> (pre-demo) can be played here: <a href="https://skejeton.itch.io/savescum">https://skejeton.itch.io/savescum</a>
+        </p>
+        <p class="copy">(C) Skejeton 2024</p>
+      </div>
     </article>
-</body>
-
-</html>
+    <div class="right">
+      <div>
+        <div class="img-container"><img src="./picture1.png"></img></div>
+        <div class="img-container"><img src="./picture2.png"></img></div>
+      </div>
+    </div>
+  </body>
+</html> 
